@@ -4,7 +4,7 @@ var CACHE_VERSION = 'v4';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '.',
-  'test.html',
+  'index.html',
   'image/1.jpg',
   'image/2.jpg',
   'j.js'
