@@ -14,10 +14,10 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
-        .catch((err) => console.error(err));
         console.log('Opened cache');
         return cache.addAll(urlsToCache)
       })
+      .catch((err) => console.error(err));
   );
 });
 
