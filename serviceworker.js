@@ -7,7 +7,6 @@ var urlsToCache = [
   'image/1.jpg',
   'image/2.jpg',
   'j.js',
-  'manifest.jason'
 ];
 
 self.addEventListener('install', function(event) {
