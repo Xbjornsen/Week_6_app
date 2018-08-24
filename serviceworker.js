@@ -1,5 +1,5 @@
 var CACHE_TITLE = 'my-site-cache';
-var CACHE_VERSION = 'v2';
+var CACHE_VERSION = 'v3';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '.',
@@ -15,9 +15,9 @@ self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
+        .catch((err) => console.error(err));
         console.log('Opened cache');
         return cache.addAll(urlsToCache)
-          .catch((err) => console.error(err));
       })
   );
 });
