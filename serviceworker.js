@@ -28,6 +28,7 @@ self.addEventListener('fetch', function(event) {
       .then(function(response) {
         // Cache hit - return response
         if (response) {
+            console.log('loaded from cache', response);
           return response;
         }
         return fetch(event.request);
