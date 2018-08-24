@@ -1,6 +1,6 @@
 /* global fetch, self, caches, Promise */
 var CACHE_TITLE = 'my-site-cache';
-var CACHE_VERSION = 'v3';
+var CACHE_VERSION = 'v4';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '.',
