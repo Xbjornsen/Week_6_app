@@ -6,7 +6,7 @@ var urlsToCache = [
   'test.html',
   'image/1.jpg',
   'image/2.jpg',
-  'j.js',
+  'j.js'
 ];
 
 self.addEventListener('install', function(event) {
@@ -17,7 +17,7 @@ self.addEventListener('install', function(event) {
         console.log('Opened cache');
         return cache.addAll(urlsToCache)
       })
-      .catch((err) => console.error(err));
+      .catch(function(err) { console.error(err); })
   );
 });
 
