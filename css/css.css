@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    
+}
+
+header {
+    font-size: 30px ;
+    text-align: center;
+    color: black;
+}
+
+.column {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+}
+@media screen and (max-width: 460px) {
+    .column{
+        width: 100%
+    }
+}

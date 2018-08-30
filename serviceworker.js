@@ -1,13 +1,18 @@
 /* global fetch, self, caches, Promise */
 var CACHE_TITLE = 'my-site-cache';
-var CACHE_VERSION = 'v4';
+var CACHE_VERSION = 'v5';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '.',
   'index.html',
+    'states.html',
   'image/1.jpg',
   'image/2.jpg',
-  'j.js'
+  'j.js',
+    'nav.js',
+    'nav.css',
+    'css.css'
+
 ];
 
 self.addEventListener('install', function(event) {
