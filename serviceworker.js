@@ -7,7 +7,7 @@ var urlsToCache = [
   'index.html',
     'states.html',
   'image/1.jpg',
-  'image/2.jpg',
+  'image/3.jpg',
   'j.js',
     'nav.js',
     'nav.css',
