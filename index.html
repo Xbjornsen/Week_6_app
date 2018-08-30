@@ -4,22 +4,41 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="manifest.json">
+        <link rel="nav" href="css/nav.css">
 	   <title>Charge4Lyfe</title>
     </head>
     <body>
         <header>
-        <nav class="menu tab">
-            <div class="drop_1">
-            <a href="">Contact</a>
-            <a href="">Settings></a>
-            <a href="">Help></a>
+           <nav> 
+            <div id='wrap'>
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
+              <ul id="list">
+                <li><a href="#">Home  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="#000000" d="M9,19V13H11L13,13H15V19H18V10.91L12,4.91L6,10.91V19H9M12,2.09L21.91,12H20V21H13V15H11V21H4V12H2.09L12,2.09Z" />
+            </svg></a></li>
+                <li><a href="#">About  <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+                <path fill="#000000" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+            </svg>  </a></li>
+                <li><a href="#">Contact  <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4,4H20A2,2 0 0,1 22,6V18A2,2 0 0,1 20,20H4C2.89,20 2,19.1 2,18V6C2,4.89 2.89,4 4,4M12,11L20,6H4L12,11M4,18H20V8.37L12,13.36L4,8.37V18Z"></path>
+            </svg></a></li>
+                 <li><a href="#">Help  <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M11,6.5V9.33L8.33,12L11,14.67V17.5L5.5,12M13,6.43L18.57,12L13,17.57V14.74L15.74,12L13,9.26M5,3C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5A2,2 0 0,0 19,3H5Z"></path>
+            </svg></a></li>
+              </ul>
             <div class="Search">
             <input type="text" placeholder="Search..">
             </div>
         </nav>
         </header>
-        <!...Card Container...!> 
+        <!...Card Container...!>
+        <div class="card-media-home">
+        <span class="subtle">Select State</span>
+        </div>
     </body>
+    <script src="js/nav.js"></script>
     <script src="j.js"></script>
 </html>
