@@ -1,6 +1,6 @@
 /* global fetch, self, caches, Promise */
 var CACHE_TITLE = 'my-site-cache';
-var CACHE_VERSION = 'v5';
+var CACHE_VERSION = 'v6';
 var CACHE_NAME = CACHE_TITLE + '-' + CACHE_VERSION;
 var urlsToCache = [
   '.',
@@ -8,10 +8,11 @@ var urlsToCache = [
     'states.html',
   'image/1.jpg',
   'image/3.jpg',
+  'image/4.jpg',
   'j.js',
     'nav.js',
     'nav.css',
-    'css.css'
+    'main.css'
 
 ];
 

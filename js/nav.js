@@ -4,3 +4,5 @@ var list = document.getElementById("list");
 toggle.addEventListener("click", function() {
   list.classList.toggle("display");
 });
+
+document.addEventListener("touchstart", function(){}, true)
